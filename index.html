@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin:0;
+      background-color: #f8f5f2;
+      font-family: 'Montserrat', sans-serif;
+      padding:20px;
+      font-size:18px;
+      color:#333;
+    }
+    .wrapper{
+      background-color: #fff;
+      max-width:700px;
+      margin:0 auto;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+      border-top:10px solid #d4af37;
+      border-radius:5px 5px 10px 10px;
+      overflow:auto;
+    }
+    .header{
+      text-align:center;
+      padding:40px 20px;
+      background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .header h1{
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      color: #333;
+      margin:0;
+      padding:20px 0;
+    }
+    .header p{
+      font-size: 24px;
+      color: #666;
+      margin:10px 0;
+    }
+    .date-time{
+      text-align:center;
+      padding:30px 20px;
+      background-color: #f8f5f2;
+    }
+    .date-time h2{
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #333;
+      margin:0 0 20px 0;
+    }
+    .date-time p{
+      font-size: 20px;
+      color: #666;
+      margin:10px 0;
+    }
+    .location{
+      text-align:center;
+      padding:30px 20px;
+    }
+    .location h2{
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #333;
+      margin:0 0 20px 0;
+    }
+    .location p{
+      font-size: 20px;
+      color: #666;
+      margin:10px 0;
+    }
+    .rsvp{
+      text-align:center;
+      padding:30px 20px;
+      background-color: #f8f5f2;
+    }
+    .rsvp h2{
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #333;
+      margin:0 0 20px 0;
+    }
+    .btn{
+      background-color:#d4af37;
+      color:#fff;
+      text-decoration:none;
+      padding:15px 30px;
+      border-radius:30px;
+      display:inline-block;
+      font-weight:500;
+      font-size:18px;
+      letter-spacing:1px;
+      margin:20px 0;
+      transition:background-color 0.3s ease;
+    }
+    .btn:hover{
+      background-color:#b8960b;
+    }
+    .footer{
+      text-align:center;
+      padding:20px;
+      color:#666;
+      font-size:14px;
+    }
+    @media (max-width:600px){
+      body{
+        padding:10px;
+      }
+      .header h1{
+        font-size:36px;
+      }
+      .header p{
+        font-size:20px;
+      }
+      .date-time h2,
+      .location h2,
+      .rsvp h2{
+        font-size:28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1>Sarah & Michael</h1>
+      <p>request the pleasure of your company</p>
+      <p>at their wedding celebration</p>
+    </div>
+
+    <div class="date-time">
+      <h2>Saturday, June 15th, 2024</h2>
+      <p>Ceremony at 3:00 PM</p>
+      <p>Reception to follow</p>
+    </div>
+
+    <div class="location">
+      <h2>The Grand Ballroom</h2>
+      <p>123 Park Avenue</p>
+      <p>New York, NY 10001</p>
+    </div>
+
+    <div class="rsvp">
+      <h2>RSVP</h2>
+      <p>Kindly respond by May 1st, 2024</p>
+      <a href="https://example.com/rsvp" class="btn" target="_blank">RSVP Here</a>
+    </div>
+
+    <div class="footer">
+      <p>We look forward to celebrating with you!</p>
+      <p>For any questions, please contact: sarahandmichael@example.com</p>
+    </div>
+  </div>
+</body>
+</html>
