@@ -144,13 +144,16 @@
       font-weight:500;
       font-size:18px;
       letter-spacing:1px;
+      width: auto;
+      white-space: nowrap;
     }
     .infoBox{
       display:flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-    
+      flex-wrap: wrap;
+      gap: 20px;
     }
     .infoBoxItem{
       display:flex;
@@ -190,6 +193,19 @@
       .rsvp h2{
         font-size:28px;
       }
+      .infoBox{
+        flex-direction: row;
+        gap: 10px;
+      }
+      .infoBoxItem{
+        width: 40%;
+        padding: 10px;
+      }
+      .btn2{
+        width: auto;
+        font-size: 16px;
+        padding: 12px 20px;
+      }
     }
   </style>
 </head>
@@ -211,7 +227,7 @@
     </div>
 
     <div class="location">
-      <h2>교회 정보</h2>
+    
      <img src="http://hanmoory.org/_data/hanmoory/file//smarteditor/a9a24a45fa08583fd0ad0a9331dd48cc_1504940325_2871.jpg" alt="한무리교회" style="width:100%; height:auto;">
   
       <div class="infoBox">
