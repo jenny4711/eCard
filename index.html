@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>한무리 교회 부활절 초대장</title>
-  <meta property="og:title" content="한무리 교회">
-  <meta property="og:description" content="2025년 4월 20일 부활절 예배 초대장">
+  <meta property="og:title" content="한무리 교회-hanmoory.org">
+  <meta property="og:description" content="부활절 예배 초대장">
   <meta property="og:image" content="https://github.com/jenny4711/eCard/blob/main/img/easterImg2.png?raw=true">
   <meta property="og:url" content="https://example.com">
   <meta name="twitter:card" content="summary_large_image">
@@ -132,6 +132,38 @@
     .btn:hover{
       background-color:#F483D5;
     }
+    .btn2{
+      background-color: #fff;
+      color:#000;
+      text-decoration:none;
+      padding:15px 30px;
+      margin-top:20px;
+      border-radius:30px;
+      display:inline-block;
+      font-weight:500;
+      font-size:18px;
+      letter-spacing:1px;
+    }
+    .infoBox{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    .infoBoxItem{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width:25%;
+      padding:20px;
+    }
+    .locationImg{
+      width:50%;
+      height:auto;
+      border-radius:50%;
+    }
     .footer{
       text-align:center;
       padding:20px;
@@ -178,18 +210,32 @@
     </div>
 
     <div class="location">
-     
-      <h2>한무리교회</h2>
-      <p>2025년 4월 20일 오전11시</p>
-      <p>221 Schraalenburgh Rd, Closter, NJ 07624</p>
-      <p>201-297-7466</p>
+      <h2>교회 정보</h2>
+     <img src="http://hanmoory.org/_data/hanmoory/file//smarteditor/a9a24a45fa08583fd0ad0a9331dd48cc_1504940325_2871.jpg" alt="한무리교회" style="width:100%; height:auto;">
+  
+      <div class="infoBox">
+       
+        <!--찾아오는길-->
+        <div class="infoBoxItem">
+          <img class="locationImg" src="img/location.png" alt="한무리교회" style="width:100%; height:auto;">
+       
+          <a class="btn2" href="https://www.google.com/maps/dir/40.862189,-73.9620659/Hanmoory+Church+%EB%89%B4%EC%A0%80%EC%A7%80+%ED%95%9C%EB%AC%B4%EB%A6%AC%EA%B5%90%ED%9A%8C+221+Schraalenburgh+Rd+Closter,+NJ+07624/@40.9173249,-74.0351988,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c2f6c9e608800d:0x27e802d3fbb7c459!2m2!1d-73.9819673!2d40.9723453?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank">교회 위치</a>
+        </div>
+        <!--사이트 방문-->
+        <div class="infoBoxItem">
+          <img class="locationImg" src="img/church.png" alt="한무리교회" style="width:100%; height:auto;">
+       
+          <a href="https://hanmoory.org/" class="btn2" target="_blank">교회 사이트</a>
+        </div>
+      
+      </div>
     </div>
 
-    <div class="rsvp sec-header">
+    <!-- <div class="rsvp sec-header">
       <h2>교회 정보</h2>
      
       <a href="https://hanmoory.org/" class="btn" target="_blank">교회 사이트</a>
-    </div>
+    </div> -->
 
     <div class="footer">
       <p>예수님의 부활을 함께 축하해 주시면 감사하겠습니다!</p>
